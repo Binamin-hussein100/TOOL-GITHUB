@@ -1,3 +1,33 @@
+ ## PROJECT NAME
+
+ GITHUB SEARCH
+
+ ## DESCRIPTION
+
+ A WEB APPLICATION THAT ALLOWS USERS TO GET INFORMATION AND REPOSITORIES OF OTHER GITHUB USERS.
+ This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+
+ ## AUTHOR 
+
+ Binamin hussein hassan
+
+ ## SET-UP REQUIREMENT
+
+ Use of a http link
+ https://binamin-hussein100.github.io/TOOL-GITHUB/
+
+ ## TECHNOLOGIES USED
+
+ TYPESCRIPT
+ HTML
+ CSS
+ JAVASCRIPT
+
+ ## SUPPORT AND TECHNICAL DETAILS
+
+ EMAIL: binamin.h.hassan15@gmail.com
+
+
 # Github
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
@@ -25,3 +55,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## LICENCE
+
+MIT © BINAMIN HUSSEIN
