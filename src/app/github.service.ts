@@ -1,6 +1,6 @@
-import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { HttpClient} from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable, throwError } from 'rxjs';
+import { Observable} from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -19,22 +19,5 @@ export class GithubService {
     return this.httpClient.get<any[]>(dataURL)
   }
 
-  public handleErrors(error:HttpErrorResponse){
-    let errorMessage:string;
-    if(error.error instanceof ErrorEvent){
-      errorMessage = `MESSAGE : ${error.error.message}`;
-    }
-    else{
-      errorMessage = `STATUS : ${error.status} MESSAGE :${error.message}`
-    }
-    return throwError(errorMessage);
-  }
-}
-function retry(count: any, arg1: number): import("rxjs").OperatorFunction<any[], any[]> {
-  throw new Error('Function not implemented.');
-}
-
-function count(count: any, arg1: number): import("rxjs").OperatorFunction<any[], any[]> {
-  throw new Error('Function not implemented.');
 }
 

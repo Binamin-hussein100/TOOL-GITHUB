@@ -3,15 +3,15 @@
         <div class="col">
             <div class="card">
                 <div class="card-header bg-secondary text-white">
-                        <h4>Github User Search</h4>
+                        <h4 appHighlight>Github User Search</h4>
                 </div>
                 <div class="card-body">
                     <form class="form-inline" (submit)="searchUser()">
                         <div class="form-group">
                             <input [(ngModel)]="githubUserQuery" name="user" type="search" class="form-control" placeholder="Github user">
                         </div>
-                        <div>
-                            <input  size="40" type="submit" value="search" class="btn btn-secondary btn-sm">
+                        <div class="mt-3">
+                            <input  size="40" type="submit" value="search" class="btn btn-outline-secondary btn-sm">
                         </div>
                         
                     </form>

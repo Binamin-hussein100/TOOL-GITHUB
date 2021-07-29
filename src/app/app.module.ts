@@ -11,6 +11,8 @@ import { GithubProfileComponent } from './github-profile/github-profile.componen
 import { GithubProfileCardComponent } from './github-profile-card/github-profile-card.component';
 import { GithubProfileDataComponent } from './github-profile-data/github-profile-data.component';
 import { GithubRepoComponent } from './github-repo/github-repo.component';
+import { HighlightDirective } from './highlight.directive';
+import { TextChangePipe } from './text-change.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { GithubRepoComponent } from './github-repo/github-repo.component';
     GithubProfileComponent,
     GithubProfileCardComponent,
     GithubProfileDataComponent,
-    GithubRepoComponent
+    GithubRepoComponent,
+    HighlightDirective,
+    TextChangePipe
   ],
   imports: [
     BrowserModule,
